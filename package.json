@@ -1,0 +1,28 @@
+{
+  "name": "forward-public-ip",
+  "version": "0.1.0",
+  "description": "Forwards the public facing ip address to the smallstack API and saves it as configuration",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smallstack/forward-public-ip.git"
+  },
+  "keywords": [
+    "ip",
+    "address",
+    "forwarder"
+  ],
+  "author": "smallstack GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smallstack/forward-public-ip/issues"
+  },
+  "homepage": "https://github.com/smallstack/forward-public-ip#readme",
+  "dependencies": {
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.4"
+  }
+}
