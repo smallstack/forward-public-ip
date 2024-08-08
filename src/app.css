@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+button {
+    @apply uppercase;
+}
+
+* {
+    user-select: none;
+}
+
+label .label-text {
+    @apply font-bold;
+}
